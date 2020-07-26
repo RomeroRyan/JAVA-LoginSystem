@@ -10,7 +10,7 @@ When user creates an account, a .txt file named after the user's desired USERNAM
 
 ### -Notes:
 1. A variable named **pathName** needs to be updated to location programmer wishes files to be created in order for code to function properly.
-2. Currently the program changes .txt files preference to **read only**. To improve security, would want to make it unreadable and unwriteable for all.
+2. Currently the program changes .txt files preference to **read only**. To improve security, would want to make it unreadable and unwriteable or use a proper database and encryption/decryption
 
 ### -Ways-to-Improve-Code:
 1. bcrypt can be use to include encryption/decryption techniques to further improve the security of it
