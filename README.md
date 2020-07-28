@@ -6,7 +6,7 @@ When user creates an account, a .txt file named after the user's desired USERNAM
 
 ### -CONTACTS:
     Ryan Romero     r.romero.softwaredev@gmail.com
-    LinkedIn:       (TBA)
+    LinkedIn:       https://www.linkedin.com/in/ryan-romero-9b054a178/
 
 ### -Notes:
 1. A variable named **pathName** needs to be updated to location programmer wishes files to be created in order for code to function properly.
