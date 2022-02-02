@@ -4,7 +4,7 @@
 # Project Description
 A simple Java login system with GUI. Users can create an account; after doing so, users can login and be greeted with a randomly selected messaged based on calender date and time of day (good morning, happy birthday, happy new years, etc). Users also can edit and update their account information. All changes are saved immediately and between runtimes of the software.This was my final project in my Java Programming class, ment to display what I learn in class.
 
-# How it Works (Summary):
+# How it Works (Summary)
 When user creates an account, a .txt file named after the user's desired USERNAME is created in a pre-determine folder ('this' folder essentially functions as a "database"). If a file already exist with the desired USERNAME, then the username is deem taken; user must choose a new username. The user's information is all turn to string and saved into the .txt file. 
 
 Upon logging in, the program searches for a .txt file with the username inputted. It then compares the password inputted with the one saved in the file. If a txt file was found and passwords match, log in was successful. 
