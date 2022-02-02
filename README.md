@@ -15,6 +15,9 @@ Before running the Java file, a variable named "**pathName**" needs to be update
 
 2. Currently the program changes .txt files preference to **read only**. To improve security, would want to make it unreadable and unwriteable or use a proper database with encryption/decryption
 
+# Limitations
+TODO
+
 # Ways to Improve
 1. Currently the software uses folder and files as a primative database. Even with the file permissions beintg altered, this offers limited security. bcrypt can be use to include encryption/decryption techniques to further improve the security of files. However, implementing encryption/decryption/database will require an overhaul of the code.
 2. To optimize the amount of spaced used, it might be best if all profiles r saved into a single .txt file. A new format of the text in the txt files would need to be implemented to seporate accounts but, if done, will condense the amount of files created. (Will also need to change code to search for appropriate accounts within the single txt file)
