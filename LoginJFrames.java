@@ -18,7 +18,7 @@ public class LoginJFrames extends JFrame implements ActionListener, ItemListener
 	CardLayout myCardLayout = new CardLayout();
 	 
 	//***NOTE: String to the pathfile of where "database" folder is (create a "database" folder and copy/paste the pathway here)
-	String pathName = "/home/student/Desktop/Coding Projects/Java/Project1_java/database/";
+	String pathName = "/home/student/Desktop/JAVA-LoginSystem-master/";
 	
 	//Hold user info whenever successful login
 	String 	userFirstName = "<FirstName>";
@@ -30,8 +30,8 @@ public class LoginJFrames extends JFrame implements ActionListener, ItemListener
 	
 	//Hold variables during changes made in "Edit Account" window,
 	//Doesnt mess with original values in case user chooses not to execute changes to profile or if error occures
-	int		holderMonth;
-	int		holderDay;
+	int	holderMonth;
+	int	holderDay;
 	String	holderUsername;
 	String	holderPassword;
 	String	holderFirst;
@@ -181,6 +181,7 @@ public class LoginJFrames extends JFrame implements ActionListener, ItemListener
 		AccountPanel.add(AccountPanel_South, BorderLayout.SOUTH);
 		AccountPanel.add(AccountPanel_Center, BorderLayout.CENTER);
 		JLabel accountEmptySpace = new JLabel("           ");
+		JLabel accountEmptySpace2 = new JLabel("");
 
 		ACCOUNT_headerMsg.setFont(titleFont);
 		ACCOUNT_goBackButton.setFont(smallFont);
@@ -197,6 +198,7 @@ public class LoginJFrames extends JFrame implements ActionListener, ItemListener
 		AccountPanel_Center.add(ACCOUNT_nameFirstTField);
 		AccountPanel_Center.add(ACCOUNT_nameLastMsg);
 		AccountPanel_Center.add(ACCOUNT_nameLastTField);
+		AccountPanel_Center.add(accountEmptySpace2);
 		AccountPanel_Center.add(ACCOUNT_birthdayMsg);
 		AccountPanel_Center.add(ACCOUNT_Month);
 		AccountPanel_Center.add(ACCOUNT_Day);
@@ -211,6 +213,7 @@ public class LoginJFrames extends JFrame implements ActionListener, ItemListener
 		EditPanel.add(EditPanel_South, BorderLayout.SOUTH);
 		EditPanel.add(EditPanel_Center, BorderLayout.CENTER);
 		JLabel editEmptySpace = new JLabel("           ");
+		JLabel editEmptySpace2 = new JLabel("");
 		
 		EDIT_headerMsg.setFont(titleFont);
 		
@@ -225,6 +228,7 @@ public class LoginJFrames extends JFrame implements ActionListener, ItemListener
 		EditPanel_Center.add(EDIT_nameFirstTField);
 		EditPanel_Center.add(EDIT_nameLastMsg);
 		EditPanel_Center.add(EDIT_nameLastTField);
+		EditPanel_Center.add(editEmptySpace2);
 		EditPanel_Center.add(EDIT_birthdayMsg);
 		EditPanel_Center.add(EDIT_Month);
 		EditPanel_Center.add(EDIT_Day);
