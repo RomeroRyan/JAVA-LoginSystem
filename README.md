@@ -4,6 +4,9 @@
 # Project Description
 A simple Java login system with GUI. Users can create an account; after doing so, users can login and be greeted with a randomly selected messaged based on calender date and time of day (good morning, happy birthday, happy new years, etc). Users also can edit and update their account information. All changes are saved immediately and between runtimes of the software.This was my final project in my Java Programming class, ment to display what I learn in class.
 
+# Youtube Example Video
+[![Watch the video](https://img.youtube.com/vi/h6_kHkv53fo/maxresdefault.jpg)](https://youtu.be/h6_kHkv53fo)
+
 # How it Works (Summary)
 When user creates an account, a .txt file named after the user's desired USERNAME is created in a pre-determine folder ('this' folder essentially functions as a "database"). If a file already exist with the desired USERNAME, then the username is deem taken; user must choose a new username. The user's information is all turn to string and saved into the .txt file. 
 
@@ -13,10 +16,6 @@ Upon logging in, the program searches for a .txt file with the username inputted
 Before running the Java file, a variable named "**pathName**" needs to be updated to a desired folder location in order for the code to function properly. This folder location is used to save newly created accounts and search for accounts when a user trys to login.
 - Run LoginMain.java
 
-2. Currently the program changes .txt files preference to **read only**. To improve security, would want to make it unreadable and unwriteable or use a proper database with encryption/decryption
-
-# Limitations
-TODO
 
 # Ways to Improve
 1. Currently the software uses folder and files as a primative database. Even with the file permissions beintg altered, this offers limited security. bcrypt can be use to include encryption/decryption techniques to further improve the security of files. However, implementing encryption/decryption/database will require an overhaul of the code.
