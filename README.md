@@ -14,7 +14,7 @@ Upon logging in, the program searches for a .txt file with the username inputted
 
 # How to Run
 Before running the Java file, a variable named "**pathName**" needs to be updated to a desired folder location in order for the code to function properly. This folder location is used to save newly created accounts and search for accounts when a user trys to login.
-- Run LoginMain.java
+- Run ```LoginMain.java```
 
 
 # Ways to Improve
